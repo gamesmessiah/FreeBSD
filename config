@@ -124,6 +124,7 @@ bindsym $mod+F2 exec uxterm -e 'calcurse'
 bindsym $mod+F3 exec pcmanfm
 bindsym $mod+F4 exec uxterm -e 'ranger'
 bindsym $mod+F5 exec uxterm -e 'bc'
+bindsym $mod+shift+a exec uxterm -title calculator 'bc'
 
 # Autostart applications
 #exec_always --no-startup-id $HOME/.config/polybar/launch.sh
@@ -136,6 +137,7 @@ exec --no-startup-id volumeicon
 # Open specific applications in floating mode
 for_window [class="Nitrogen"] floating enable sticky enable border normal
 for_window [class="(?i)System-config-printer.py"] floating enable border normal
+for_window [title="calculator"] floating enable,move scratechpad
 
 # switch to workspace
 bindsym $mod+1 workspace 1
