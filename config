@@ -124,6 +124,7 @@ bindsym $mod+F2 exec uxterm -e 'calcurse'
 bindsym $mod+F3 exec pcmanfm
 bindsym $mod+F4 exec uxterm -e 'ranger'
 bindsym $mod+F5 exec uxterm -e 'bc'
+bindsym $mod+F12 exec i3lock -c 000000 -n
 bindsym $mod+shift+a exec uxterm -title calculator 'bc'
 
 # Autostart applications
